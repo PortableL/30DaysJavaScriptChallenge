@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.keys {
+  display: flex;
+  gap: 15px;
+}
+
+.key {
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  transition: all 0.07s ease;
+  width: 100px;
+  color: black;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.key span {
+  font-size: 12px;
+}
+
+.key h3 {
+  display: block;
+  font-size: 40px;
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 100px 45px rgba(0, 0, 0, 0.1);
+}
