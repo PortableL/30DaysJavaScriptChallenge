@@ -38,15 +38,19 @@ body {
 .hour-hand {
   width: 25%;
   height: 6px;
-  background: #221e253f;
+  background: #f80202e8;
   z-index: 3;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 50%;
 }
 
 .min-hand {
   width: 45%;
-  height: 4px;
+  height: 5px;
   background: #141801;
   z-index: 4;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .second-hand {
